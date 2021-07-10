@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4805EDC7-464F-EFDB-543B-8F0C813B39D0">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 04:48:19 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

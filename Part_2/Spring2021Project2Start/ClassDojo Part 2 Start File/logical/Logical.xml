@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1D8267D0-E6E0-D808-8020-42996AE2AA41" mainViewID="0B784D7D-EF20-6D02-9FBC-401D52FA6EB4">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 17:18:36 UTC</createdTime>
+<ownerDesignName>ClassDojo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

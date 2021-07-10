@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="From_LM_Slide 10 Take Attendance" id="EEEDAEA4-2A67-A64E-589F-555790050C15">
+<createdBy>ectro</createdBy>
+<modifiedBy>ectro</modifiedBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>EBCF83AD-5A34-1263-484D-0C42CE255F35</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="87965C16-3CC8-9DB2-A666-3C8779C1DE44" otype="Table" vid="8E1B5C50-BC1F-407B-4C1F-63A32200A6AF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="140" y="200" width="170" height="110"/>
+<generatorID>45C3706C-589F-3DC3-E304-6D70E588089C</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="AA3CAE02-C825-1A17-02DE-81826D08133C" otype="Table" vid="E1825D04-0262-57C5-D700-0B5682D0131B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="80" y="80" width="170" height="110"/>
+<generatorID>B6592C54-0D1D-8B34-D6C7-1CC307B8D39C</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BBC87285-E3C4-1FA3-48F3-01E981F3E798" otype="Table" vid="17F83D3B-37E4-46E9-414F-B13BE572AC2F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="180" y="280" width="170" height="110"/>
+<generatorID>8B5B880F-CC7A-DC76-5816-A5E408740A40</generatorID>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="1718B971-FF80-B985-EABE-2CC1C5439F8F" otype="FKIndexAssociation" vid_source="17F83D3B-37E4-46E9-414F-B13BE572AC2F" vid_target="E1825D04-0262-57C5-D700-0B5682D0131B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="215" y="280"/>
+<point x="215" y="190"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

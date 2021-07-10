@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="From_LM_Slide 3 Set up school" id="DFFF4C0A-440B-326D-5974-F2267119B72A">
+<createdBy>ectro</createdBy>
+<modifiedBy>ectro</modifiedBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>DAC746A6-E2E0-C321-2CB9-F8E257DC1498</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BBC87285-E3C4-1FA3-48F3-01E981F3E798" otype="Table" vid="46B3E4B5-627D-B038-90D6-3577F8B6B8CC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="180" y="280" width="170" height="110"/>
+<generatorID>98865BA7-2677-6B70-61A9-67A1B26DA30C</generatorID>
+</OView>
+</objectViews>
+</Diagram>

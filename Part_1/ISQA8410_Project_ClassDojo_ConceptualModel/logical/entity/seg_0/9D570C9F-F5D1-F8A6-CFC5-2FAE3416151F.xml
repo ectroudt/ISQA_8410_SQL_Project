@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D570C9F-F5D1-F8A6-CFC5-2FAE3416151F" name="Story">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 06:03:02 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>0DAF85BB-F8C3-BEED-B68C-D845A07DE9DA</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="story date time" id="D64DA8FA-B49D-C08B-4C1E-1D912BAC04F5">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 06:03:09 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="story text" id="AA9542BE-CF89-7F51-63EB-1B62BDF965C9">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 06:04:16 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="story picture" id="5C39C43E-1B33-40DD-3F95-52A7C3457C21">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 06:04:32 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="story publication date time" id="6E195C57-300D-7AA2-2C07-25CC946FFAD9">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 06:10:23 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="story comment status" id="90B11970-888D-247B-A328-1AF02B575748">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 06:10:40 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="story type" id="0DAF85BB-F8C3-BEED-B68C-D845A07DE9DA">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-21 01:15:14 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

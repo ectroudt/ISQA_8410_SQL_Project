@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="481C5324-E4BB-C866-DB2A-86EBFC7CFEF2" name="Class">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:26:49 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="class name" id="EECF200E-FE8A-4F5A-CD0D-F105327EDE7A">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:27:08 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class grade" id="B999CB79-E0CD-DB82-0FE7-30D26DB7E594">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:27:11 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class points display" id="CE3BB78C-111E-4590-BA3E-D9E5B51D7E14">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:27:16 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class point total" id="3F71B1CE-7470-A7DD-49AB-1F9824BB7E19">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:28:25 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class positive point total" id="E2B721C8-C778-E974-A177-95D0F2453C42">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:29:01 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class negative point total" id="39502533-C127-D7AE-95BC-F07CE6AC65A8">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-21 18:24:42 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class story access code" id="7F5FFBD8-BA17-8596-092F-326851BA723B">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:29:10 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class status" id="EC79F9A2-5A6C-237E-F9E7-869CDC28E9D4">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-21 17:58:25 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

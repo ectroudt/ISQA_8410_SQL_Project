@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40D4574A-A0D7-D527-6D6C-A3C0FE2AE5BE" name="Parent">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:23:26 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="parent name" id="E2484FEF-D6C3-A0A9-3240-DDC2BC9F44BD">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:23:35 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parent email" id="CD1AD5BE-1871-DB03-1FBE-8C0496C86C2F">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:23:58 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parent username" id="BE943C81-2E92-C66F-3185-DA27C0C854E0">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-21 18:14:39 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parent password" id="AE85256C-F098-8D91-AB84-A5CF5BA5A401">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:24:17 UTC</createdTime>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

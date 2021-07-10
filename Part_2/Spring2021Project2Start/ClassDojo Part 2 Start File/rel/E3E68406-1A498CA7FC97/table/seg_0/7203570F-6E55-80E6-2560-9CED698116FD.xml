@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7203570F-6E55-80E6-2560-9CED698116FD" name="Student_Enrollment">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>64AE2B2E-9DB1-C18D-1249-265499ABCCEB</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_ID" id="4A60AD7F-1C34-C05A-4335-BC8DBCE6CCA6">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>658D2563-C2CD-E4A5-E015-6031AD7FC4C8</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAF37479-7518-E1B9-BAEC-12953BB930C3" referredColumn="BB3A4894-045B-DA81-56FA-1F4C3453C8BA"/>
+</associations>
+</Column>
+<Column name="class_listing_ID" id="532CA4D8-FC32-41A8-BB83-4C329F7614FD">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>6D312A6D-8D4E-2BBF-6A2F-4C1D27A3F15C</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30696E5C-B782-398D-07F2-24B524693F81" referredColumn="EBA4DFAE-E130-1FAD-764B-99AED266E581"/>
+</associations>
+</Column>
+<Column name="student_enrollment_points_total" id="6FD9DE8F-7CF8-D5A7-1FED-99D8F883B58C">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>27ED6DF4-93B8-8BCA-C415-0547A0E26B34</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_enrollment_points_negative" id="B3FB2988-1C7C-BABE-C53B-A02F7CD03FD3">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>BA9FB4E1-CE06-520F-56AD-C430FAD8157B</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A6B55508-7826-1152-000A-E2131D356A44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-5</beginValue>
+<endValue>5</endValue>
+<description>Point range</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="student_enrollment_points_positive" id="0A2165BC-6247-441F-46DA-A0402489680C">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>C72FFF59-E184-4E45-FEA7-A619A92DB1E9</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A6B55508-7826-1152-000A-E2131D356A44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-5</beginValue>
+<endValue>5</endValue>
+<description>Point range</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C6516A7-BF48-60D2-AF82-0B126FE937A0" name="Student_Enrollment_PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>241F841E-CE5A-960B-C5D8-07830F139D1E</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A60AD7F-1C34-C05A-4335-BC8DBCE6CCA6"/>
+<colUsage columnID="532CA4D8-FC32-41A8-BB83-4C329F7614FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3618E7B2-B51B-D2D4-5DF6-FE52754916CD" name="Class_Enrolled">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>9595AA36-C23F-4BD0-97D1-A79208E3FD8F</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A60AD7F-1C34-C05A-4335-BC8DBCE6CCA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B020292-9484-C514-D0E8-E77BA3D51B9E" name="Student_enrolled">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>0E97DD57-68C6-2A11-FB6C-8AF80F848299</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="532CA4D8-FC32-41A8-BB83-4C329F7614FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

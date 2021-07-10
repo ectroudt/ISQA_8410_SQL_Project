@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D42E1623-19EB-44F2-DF75-C737B4E8CD89" name="Story_Like">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:21:30 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="parentInd_ID" id="8A560B95-F7F5-174E-8CAC-C442C4EA5986">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:23:18 UTC</createdTime>
+<generatorID>1CF8BF5B-E473-37EE-0B6B-BAD0489B02BE</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>373FA1FC-DAC3-2D6D-2DE4-D1F69BAE544F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="story_ID" id="D94D049A-56C9-E435-2863-857357EAC7DD">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:26:12 UTC</createdTime>
+<generatorID>D09CA9B2-2901-8FC2-D503-D2FCD0461F78</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>0147DBDD-BC8E-895A-2395-DAFABB9DD88C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04A86457-753D-00B1-0657-D0DD67F03626" name="Story_Like PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:22:52 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A560B95-F7F5-174E-8CAC-C442C4EA5986</attributeRef>
+<attributeRef>D94D049A-56C9-E435-2863-857357EAC7DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

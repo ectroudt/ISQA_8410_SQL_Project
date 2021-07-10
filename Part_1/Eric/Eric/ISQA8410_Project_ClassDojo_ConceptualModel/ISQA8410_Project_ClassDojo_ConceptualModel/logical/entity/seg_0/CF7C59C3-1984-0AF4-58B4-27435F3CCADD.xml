@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF7C59C3-1984-0AF4-58B4-27435F3CCADD" name="Mentor">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:17:03 UTC</createdTime>
+<comment>Mentor is a subtype of teacher who have admin level access to the dojo app</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B87E5B46-213A-943F-33C1-0E59D85FDABB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

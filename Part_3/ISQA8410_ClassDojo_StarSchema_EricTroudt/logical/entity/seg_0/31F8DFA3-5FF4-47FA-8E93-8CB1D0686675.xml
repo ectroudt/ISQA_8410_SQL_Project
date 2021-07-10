@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31F8DFA3-5FF4-47FA-8E93-8CB1D0686675" name="ClassDojo_FeedbackFact">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 23:18:06 UTC</createdTime>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="feedback_points" id="0C66AF9B-5A9E-00F9-ED38-899E0D893CF6">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 23:18:51 UTC</createdTime>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="feedback_given_to" id="E3136FA1-6D70-9081-8415-A7D5F5A3D458">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-19 23:18:18 UTC</createdTime>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="feedback_id" id="835307DA-161D-FC56-371A-EC4F63510102">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-19 23:19:38 UTC</createdTime>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_key" id="293E8078-9D1C-AA55-16D2-8BEDC17F771D">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 23:21:24 UTC</createdTime>
+<generatorID>B05363E9-C7E1-858B-9A12-2BF89AD23499</generatorID>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<referedAttribute>6E75DCE1-970F-3479-C8E5-420D6FE7D5CA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_key" id="DF4D804C-F50B-E992-6373-E0379707B6B1">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 23:22:56 UTC</createdTime>
+<generatorID>A8C81BFE-09D7-3A16-02CF-B313B0154A9A</generatorID>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<referedAttribute>B2028375-CA66-DBA4-2C87-045D426AB35F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="skill_key" id="5DF2B20A-C653-DACD-1211-405B67CE3C1D">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 23:23:35 UTC</createdTime>
+<generatorID>72DA3AFD-C6D9-FAF7-409A-AE6F2139CBE8</generatorID>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<referedAttribute>14302557-B68D-F729-E16F-36266927B614</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="school_key" id="357E0E2D-540D-EA2F-3A19-8F66A0CF52E2">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 23:24:52 UTC</createdTime>
+<generatorID>CA19931B-A0AD-A33B-6CF2-B027D84E2B55</generatorID>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<referedAttribute>CC087595-AFA7-C2B2-05C4-5CA404F1880F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="teacher_key" id="B05A51AF-1416-43C7-98D4-5A4D9C859763">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 23:25:03 UTC</createdTime>
+<generatorID>45E1B879-A232-7927-5B1C-88E20578EDB3</generatorID>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<referedAttribute>E7416414-54ED-F9C6-72B0-8F4AC9B26236</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_key" id="3C1D6115-BFB8-47A1-3070-27A2DC0783FD">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 23:25:20 UTC</createdTime>
+<generatorID>A1D0DB4A-6AA1-E8F8-3A84-6AE7D9580549</generatorID>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<referedAttribute>76133833-0C58-976D-6E2C-C0D278242901</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

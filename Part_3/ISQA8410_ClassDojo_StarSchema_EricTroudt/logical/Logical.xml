@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="15AF10B3-34D1-5012-96BD-BBA2DC7D49C5" mainViewID="BF5BCDEB-09DD-5676-45EF-A73FA979E675">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 22:50:58 UTC</createdTime>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

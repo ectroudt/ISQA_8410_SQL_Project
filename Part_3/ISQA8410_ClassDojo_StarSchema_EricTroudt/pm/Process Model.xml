@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D8031381-7A59-09B6-222D-6E1723BA3A34">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 22:50:58 UTC</createdTime>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

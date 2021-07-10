@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D601FCC1-0CE7-DC0B-4D8B-267FF60B554E" name="Student_Feedback">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 17:47:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[A feedback is a negative or positive statement given by a teacher to one or more students based on observed skill or behavior in the classroom.]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student_feedback_ID" id="5FAD1771-E772-00D2-25FA-8994CE111DEF">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:42:29 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_feedback_datetime" id="5E5B7650-D2A3-ECD7-6A14-B80F7B63715D">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 17:53:16 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9C2654A0-8DA0-8886-2D79-636ADC3F541B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_feedback_given_to" id="69B30E51-19FC-3241-5763-9A850B8443ED">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 17:54:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[whole class, individual student (default is whole class)]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<constraintName>feedback recipient</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="individual student" description=""/>
+<valueDef value="whole class" description=""/>
+</listOfValues>
+<defaultValue>whole class</defaultValue>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_feedback_note" id="6EB77BA5-BA08-F7BB-9CA6-B35DDC507DB0">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-31 18:28:56 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B572686D-D1B3-076E-C97B-54334E024F76</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_feedback_points" id="0733EDBB-3A45-EB29-9E36-25521F789E85">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-31 18:53:25 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A6B55508-7826-1152-000A-E2131D356A44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-5</beginValue>
+<endValue>5</endValue>
+<description>Point range</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="student_ID" id="514AE5D8-F5D9-48B8-285E-82100BC06B4F">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:34:18 UTC</createdTime>
+<generatorID>B4953AB7-8B8F-EC2E-E39B-D053B0B7D23B</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>92A00515-B48E-7B08-D9CC-EF41A30DD983</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_listing_ID" id="EA30E68F-EBB3-57E4-07D0-AE800E366319">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:36:07 UTC</createdTime>
+<generatorID>8E8A8804-8563-ADB8-7125-14695CEF25B0</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>616C4FA6-CEC2-DD2C-5C46-5FB44ED5D6D5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="teacher_ID" id="BDE65EED-A6C3-4E71-3858-7F24C7767302">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:36:28 UTC</createdTime>
+<generatorID>BA6E4FB0-4330-7B3F-50C4-B7A2AB5763C5</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>B781D8AF-F4BA-E3D1-B320-502B3684163B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Skill_ID" id="CA94247B-577D-39CF-9A23-BB68DDF6E3E0">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:37:12 UTC</createdTime>
+<generatorID>E19D59CC-99ED-84B1-9238-4FB2C9A1CD87</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>B9D280DC-2321-99FF-4771-0BBCAB0ADC15</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37DBAC37-8A34-48E4-92EB-FB78A35E217F" name="Feedback PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:42:46 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FAD1771-E772-00D2-25FA-8994CE111DEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

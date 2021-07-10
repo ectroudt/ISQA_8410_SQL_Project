@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Parental_Relationshp" directorySegmentName="seg_0" id="190EDEFF-11A1-8DCE-34DF-89A2C21774A1">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:30:54 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<sourcePk>CD1D4DC3-EBBE-C138-A3B6-7C0200DEB004</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>is with</nameOnSource>
+<nameOnTarget>for</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6D9AFE9F-B64A-6B04-CC76-19CC88B797E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>01674413-4647-C090-0346-39F1F5A7861D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="From_LM_Slide 9 Delete Class" id="E99A55F1-1595-BAEC-C5F9-C0425BFB1C70">
+<createdBy>ectro</createdBy>
+<modifiedBy>ectro</modifiedBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>41815FF9-54BF-87BF-31FB-7484F0F71DAE</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="AA3CAE02-C825-1A17-02DE-81826D08133C" otype="Table" vid="BAF6386A-098C-50AA-7CDE-9D4B52069AD8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="80" y="80" width="170" height="110"/>
+<generatorID>3A76774B-C9E0-9854-E714-D504C5A1092B</generatorID>
+</OView>
+</objectViews>
+</Diagram>

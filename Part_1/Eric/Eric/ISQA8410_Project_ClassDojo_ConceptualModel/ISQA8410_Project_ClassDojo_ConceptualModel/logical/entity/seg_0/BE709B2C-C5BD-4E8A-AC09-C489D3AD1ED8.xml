@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE709B2C-C5BD-4E8A-AC09-C489D3AD1ED8" name="Student Story">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 06:07:25 UTC</createdTime>
+<comment>This is a subtype of story table. This stores the information about the stories created by student</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DB7C85CD-6666-435E-10AE-3E58D2B21C20</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="story access code" id="1B6A09A8-0E62-AB97-637B-D1588399FD51">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 06:08:06 UTC</createdTime>
+<comment>Access code for the student story</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="story approval status" id="34ED1503-651C-B66D-CD01-3E5EF0FDC978">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 06:08:14 UTC</createdTime>
+<comment>Status of the story.</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

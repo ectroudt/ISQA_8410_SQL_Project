@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Slide 9 Delete Class" id="41815FF9-54BF-87BF-31FB-7484F0F71DAE">
+<createdBy>mgreiner</createdBy>
+<modifiedBy>mgreiner</modifiedBy>
+<createdTime>2017-10-02 18:03:26 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>false</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<showAllDetails>false</showAllDetails>
+<showComments>true</showComments>
+<showElements>true</showElements>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="21EB887B-F5D7-CC82-68C2-6E86566193E8" otype="Entity" vid="3A76774B-C9E0-9854-E714-D504C5A1092B">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="518" y="313" width="247" height="151"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="78682620-E474-A204-9549-EE147AAF977E 0B8FA6B2-5B04-E412-11A4-F43CA3C16F3C 20461C5C-78D7-E333-ACCF-59DBAFBDF1AC 9E6E31BF-97F4-A6FA-65D2-20E07366E50F 81FE1666-5A6F-6D94-9941-446A14EBCEE5"/>
+</OView>
+</objectViews>
+</Diagram>

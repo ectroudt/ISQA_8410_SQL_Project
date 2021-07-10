@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Inherited" directorySegmentName="seg_0" id="14B0A248-8FAF-D23F-9652-0D6F7CC5A524">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 17:41:12 UTC</createdTime>
+<ownerDesignName>ClassDojo</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>F9E03F9B-2A4E-B65E-1056-31FEFDC957A9</sourceEntity>
+<targetEntity>A2C6283A-20F7-CCD4-9C63-ECC99C3AE3E5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</InheritanceRelation>

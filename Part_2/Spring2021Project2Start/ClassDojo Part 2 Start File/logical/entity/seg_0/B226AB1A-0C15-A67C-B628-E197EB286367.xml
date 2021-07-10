@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B226AB1A-0C15-A67C-B628-E197EB286367" name="ParentInd">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 17:22:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[A parent is either the father, mother, or guardian of a child. The parent needs an access code to sign up and be connected with a child.]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="parentInd_ID" id="373FA1FC-DAC3-2D6D-2DE4-D1F69BAE544F">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:34:31 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentInd_first_name" id="7ED91109-AEE1-BA20-C5EA-606A6F9B1241">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 16:23:11 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>220F7CA6-0C7E-DF1D-4F51-4E924C8A789D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentInd_last_name" id="4AF7EA85-92A9-7ADD-BD0D-682582DF701A">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 16:23:16 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>220F7CA6-0C7E-DF1D-4F51-4E924C8A789D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentInd_email" id="82E299AF-6896-9E1C-717F-2644C04A0FD5">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 16:23:18 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F064D19A-7B3A-DEAB-F6CA-6E2AB6ABD9FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FB430A5-5D4A-FABF-E8A8-9AC9771712B0" name="Parent PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:34:36 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>373FA1FC-DAC3-2D6D-2DE4-D1F69BAE544F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

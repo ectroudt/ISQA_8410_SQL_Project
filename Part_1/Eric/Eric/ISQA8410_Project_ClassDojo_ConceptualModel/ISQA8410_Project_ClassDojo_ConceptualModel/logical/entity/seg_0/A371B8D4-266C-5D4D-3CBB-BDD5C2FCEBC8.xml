@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A371B8D4-266C-5D4D-3CBB-BDD5C2FCEBC8" name="Student">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:19:01 UTC</createdTime>
+<comment><![CDATA[Student entity to store student details]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student name" id="052BF2FC-C11B-42C2-034E-146F0C50E801">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:19:11 UTC</createdTime>
+<comment><![CDATA[Name of the student]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student avatar" id="DB997C29-58BA-E7D2-D596-23150C8622F7">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:19:35 UTC</createdTime>
+<comment><![CDATA[Avatar of the student]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student attendance status" id="CF3F1DD3-551E-1D43-4860-BDB3906FC97E">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:19:50 UTC</createdTime>
+<comment><![CDATA[attendance status  of the student]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student access code" id="8028552F-0099-4F6F-38B1-ED05B029FE39">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:20:21 UTC</createdTime>
+<comment><![CDATA[access code  of the student]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student account status" id="5B974EC1-E96D-CD7B-5ED1-6693186ED3D2">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:20:44 UTC</createdTime>
+<comment><![CDATA[account status of the student]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student username" id="5ACA34E2-CE38-120F-10F6-D8C5324DD37E">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:21:02 UTC</createdTime>
+<comment><![CDATA[username of the student]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student password" id="3F306E31-72CC-3F2E-76F5-6C4B08482D3B">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:21:07 UTC</createdTime>
+<comment><![CDATA[password of the student]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

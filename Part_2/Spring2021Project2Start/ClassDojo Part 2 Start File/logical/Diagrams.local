@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="0B784D7D-EF20-6D02-9FBC-401D52FA6EB4" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="EBCF83AD-5A34-1263-484D-0C42CE255F35" name="Slide 10 Take Attendance" visible="false"/>
+   <object objectType="sub_view" objectID="65B8F7E8-112D-C948-2D24-144BFB482A09" name="Slide 12 Manage Skills" visible="false"/>
+   <object objectType="sub_view" objectID="410F7F5D-AAF7-D097-C3AA-7751EE5B1014" name="Slide 13 Give Feedback" visible="false"/>
+   <object objectType="sub_view" objectID="3F198914-72FA-D28C-0C2E-D4479C71CBCD" name="Slide 14 Showing Points" visible="false"/>
+   <object objectType="sub_view" objectID="F5B0157A-EC45-CC5D-12E3-EB953A9762D4" name="Slide 18 Sharing Classes" visible="false"/>
+   <object objectType="sub_view" objectID="F4280D5A-0F13-62D7-7790-4159A336185A" name="Slide 19 Story" visible="false"/>
+   <object objectType="sub_view" objectID="DAC746A6-E2E0-C321-2CB9-F8E257DC1498" name="Slide 3 Set up school" visible="false"/>
+   <object objectType="sub_view" objectID="FB43C105-3CF3-CB8A-838F-033DB343A2BC" name="Slide 4 Adding Students" visible="false"/>
+   <object objectType="sub_view" objectID="9DD11DB3-8F71-7191-72B2-04CB755684D9" name="Slide 5  Student Signup" visible="false"/>
+   <object objectType="sub_view" objectID="2567AAC7-7317-543C-A56B-877CF55D525E" name="Slide 6 Parent Sign up" visible="false"/>
+   <object objectType="sub_view" objectID="65B8652D-EB85-F901-0C7D-56075A26873A" name="Slide 7 Teacher Account" visible="false"/>
+   <object objectType="sub_view" objectID="817BAFF4-10E9-A807-6AE9-182D17C553DC" name="Slide 8  Create a Class" visible="false"/>
+   <object objectType="sub_view" objectID="41815FF9-54BF-87BF-31FB-7484F0F71DAE" name="Slide 9 Delete Class" visible="false"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

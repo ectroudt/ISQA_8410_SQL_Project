@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Slide 12 Manage Skills" id="65B8F7E8-112D-C948-2D24-144BFB482A09">
+<createdBy>mgreiner</createdBy>
+<modifiedBy>mgreiner</modifiedBy>
+<createdTime>2017-10-02 18:05:50 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>false</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<showAllDetails>false</showAllDetails>
+<showComments>true</showComments>
+<showElements>true</showElements>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="21EB887B-F5D7-CC82-68C2-6E86566193E8" otype="Entity" vid="BF7083F2-EAA8-7A95-B2FF-66D6432A32D5">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="235" y="141" width="247" height="151"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="78682620-E474-A204-9549-EE147AAF977E 0B8FA6B2-5B04-E412-11A4-F43CA3C16F3C 20461C5C-78D7-E333-ACCF-59DBAFBDF1AC 9E6E31BF-97F4-A6FA-65D2-20E07366E50F 81FE1666-5A6F-6D94-9941-446A14EBCEE5"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5C2264B2-6B6D-DFFB-145A-D04387A3BCC3" otype="Entity" vid="3ECF74A2-592E-482D-304F-0213968F47AC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="519" y="343" width="205" height="135"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A6E39E13-D0D8-5587-36A2-C8184A259A1F" otype="Relation" vid_source="3ECF74A2-592E-482D-304F-0213968F47AC" vid_target="BF7083F2-EAA8-7A95-B2FF-66D6432A32D5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="529" y="343"/>
+<point x="460" y="292"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

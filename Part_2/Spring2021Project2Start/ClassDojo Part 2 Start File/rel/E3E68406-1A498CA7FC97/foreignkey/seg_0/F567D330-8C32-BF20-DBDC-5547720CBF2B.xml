@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F567D330-8C32-BF20-DBDC-5547720CBF2B" containerWithKeyObject="579CD789-3AF1-0EBD-5039-26763F611355" localFKIndex="02583543-E474-E054-413F-174AADBD717F" name="Liked_Story">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>D09CA9B2-2901-8FC2-D503-D2FCD0461F78</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<referredTableLongName>Story</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C56AA05A-A655-AD74-8286-0ACC89017C1D</referredTableID>
+<keyObject>528CA6B5-A947-4DD0-19ED-86953389254E</keyObject>
+<referredKeyID>528CA6B5-A947-4DD0-19ED-86953389254E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>story_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

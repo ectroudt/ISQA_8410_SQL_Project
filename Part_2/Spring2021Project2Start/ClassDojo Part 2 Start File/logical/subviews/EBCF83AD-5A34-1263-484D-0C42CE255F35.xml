@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Slide 10 Take Attendance" id="EBCF83AD-5A34-1263-484D-0C42CE255F35">
+<createdBy>mgreiner</createdBy>
+<modifiedBy>mgreiner</modifiedBy>
+<createdTime>2017-10-02 18:04:13 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>false</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<showAllDetails>false</showAllDetails>
+<showComments>true</showComments>
+<showElements>true</showElements>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="21EB887B-F5D7-CC82-68C2-6E86566193E8" otype="Entity" vid="B6592C54-0D1D-8B34-D6C7-1CC307B8D39C">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="531" y="150" width="247" height="151"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="78682620-E474-A204-9549-EE147AAF977E 0B8FA6B2-5B04-E412-11A4-F43CA3C16F3C 20461C5C-78D7-E333-ACCF-59DBAFBDF1AC 9E6E31BF-97F4-A6FA-65D2-20E07366E50F 81FE1666-5A6F-6D94-9941-446A14EBCEE5"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="3C4E7A8B-FCC1-B94B-2858-1CA9621D9328" otype="Note" vid="C16EFE1B-6735-6CBC-BBFA-C6C39D13B1BB">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="192" y="485" width="202" height="73"/>
+<comment>It is not clear if we capture which teacher captures the attendance. I left it out, but a relationship form teacher to attendance would be acceptable.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6D9AFE9F-B64A-6B04-CC76-19CC88B797E4" otype="Entity" vid="45C3706C-589F-3DC3-E304-6D70E588089C">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="1135" y="336" width="332" height="259"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="4AEEA213-5054-7743-9612-E1B4E9373A57 AD63EE3A-EE47-7D8D-B09C-6682F7E0E8A2 F8556A49-F0F8-CAD4-B300-E2002CD820DC FF172C40-C8D1-4A74-BAAF-C99D9853E1EF 544908E3-1904-03CD-39DB-6560223EF4A8"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EDA02E72-8661-C514-05AA-037064DA3D41" otype="Entity" vid="8B5B880F-CC7A-DC76-5816-A5E408740A40">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="150" y="258" width="170" height="178"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="3CBD6CF7-3238-1975-0278-9BAE63F3620A"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9B4CE730-6F73-B572-24B4-218B529AE44D" otype="Relation" vid_source="8B5B880F-CC7A-DC76-5816-A5E408740A40" vid_target="B6592C54-0D1D-8B34-D6C7-1CC307B8D39C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="320" y="279"/>
+<point x="531" y="279"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

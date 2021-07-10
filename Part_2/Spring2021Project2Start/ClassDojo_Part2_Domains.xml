@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="ClassDojo_Part2_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="HumanName" directorySegmentName="seg_0" id="220F7CA6-0C7E-DF1D-4F51-4E924C8A789D">
+         <createdBy>ectro</createdBy>
+         <createdTime>2021-03-30 23:59:32 UTC</createdTime>
+         <ownerDesignName>ClassDojo_Part2_Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>30</dataTypeSize>
+         <fileName>ClassDojo_Part2_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Identifier" directorySegmentName="seg_0" id="482227BF-D85A-2DDC-3622-0D1F18214B44">
+         <createdBy>ectro</createdBy>
+         <createdTime>2021-03-30 23:46:58 UTC</createdTime>
+         <ownerDesignName>ClassDojo_Part2_Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <fileName>ClassDojo_Part2_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DateMade" directorySegmentName="seg_0" id="9C2654A0-8DA0-8886-2D79-636ADC3F541B">
+         <createdBy>ectro</createdBy>
+         <createdTime>2021-03-31 00:08:05 UTC</createdTime>
+         <ownerDesignName>ClassDojo_Part2_Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>ClassDojo_Part2_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Code" directorySegmentName="seg_0" id="A0618070-E49E-1352-EB1D-EB95DD94B55D">
+         <createdBy>ectro</createdBy>
+         <createdTime>2021-03-30 23:58:44 UTC</createdTime>
+         <ownerDesignName>ClassDojo_Part2_Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>5</dataTypeSize>
+         <fileName>ClassDojo_Part2_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <checkConstraint>
+            <implementationDef dbType="Generic Constraint" definition="%column% &gt; 0"/>
+         </checkConstraint>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Point" directorySegmentName="seg_0" id="A6B55508-7826-1152-000A-E2131D356A44">
+         <createdBy>ectro</createdBy>
+         <createdTime>2021-03-30 23:59:48 UTC</createdTime>
+         <ownerDesignName>ClassDojo_Part2_Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>2</dataTypeSize>
+         <fileName>ClassDojo_Part2_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <listOfRanges>
+            <rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+               <beginValue>-5</beginValue>
+               <endValue>5</endValue>
+               <description>Point range</description>
+            </rangeDef>
+         </listOfRanges>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="TextMade" directorySegmentName="seg_0" id="B572686D-D1B3-076E-C97B-54334E024F76">
+         <createdBy>ectro</createdBy>
+         <createdTime>2021-03-31 00:08:59 UTC</createdTime>
+         <ownerDesignName>ClassDojo_Part2_Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>200</dataTypeSize>
+         <fileName>ClassDojo_Part2_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>ectro</createdBy>
+         <createdTime>2021-03-30 23:46:44 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Email" directorySegmentName="seg_0" id="F064D19A-7B3A-DEAB-F6CA-6E2AB6ABD9FD">
+         <createdBy>ectro</createdBy>
+         <createdTime>2021-03-31 00:03:14 UTC</createdTime>
+         <ownerDesignName>ClassDojo_Part2_Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>40</dataTypeSize>
+         <fileName>ClassDojo_Part2_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <checkConstraint>
+            <implementationDef dbType="Generic Constraint" definition="%column% LIKE (&apos;%@%&apos;)"/>
+         </checkConstraint>
+      </Domain>
+   </domains>
+</DomainFile>

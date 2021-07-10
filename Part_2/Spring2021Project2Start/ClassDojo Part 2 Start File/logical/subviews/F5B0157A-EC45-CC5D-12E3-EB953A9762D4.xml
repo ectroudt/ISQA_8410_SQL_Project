@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Slide 18 Sharing Classes" id="F5B0157A-EC45-CC5D-12E3-EB953A9762D4">
+<createdBy>mgreiner</createdBy>
+<modifiedBy>mgreiner</modifiedBy>
+<createdTime>2017-10-02 18:10:11 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>false</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<showAllDetails>false</showAllDetails>
+<showComments>true</showComments>
+<showElements>true</showElements>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="21EB887B-F5D7-CC82-68C2-6E86566193E8" otype="Entity" vid="EA06BA00-8CB3-9152-7BD5-762C10883226">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="842" y="385" width="247" height="151"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="78682620-E474-A204-9549-EE147AAF977E 0B8FA6B2-5B04-E412-11A4-F43CA3C16F3C 20461C5C-78D7-E333-ACCF-59DBAFBDF1AC 9E6E31BF-97F4-A6FA-65D2-20E07366E50F 81FE1666-5A6F-6D94-9941-446A14EBCEE5"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EDA02E72-8661-C514-05AA-037064DA3D41" otype="Entity" vid="936FD298-E21B-96EA-B83E-BE381074C72F">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="392" y="323" width="170" height="178"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="3CBD6CF7-3238-1975-0278-9BAE63F3620A"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9B4CE730-6F73-B572-24B4-218B529AE44D" otype="Relation" vid_source="936FD298-E21B-96EA-B83E-BE381074C72F" vid_target="EA06BA00-8CB3-9152-7BD5-762C10883226">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="562" y="443"/>
+<point x="842" y="443"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

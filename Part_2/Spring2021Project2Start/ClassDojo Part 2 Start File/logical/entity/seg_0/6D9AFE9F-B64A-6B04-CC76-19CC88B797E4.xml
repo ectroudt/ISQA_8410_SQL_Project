@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D9AFE9F-B64A-6B04-CC76-19CC88B797E4" name="Student">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 17:26:56 UTC</createdTime>
+<comment><![CDATA[access code is unique but can change.]]></comment>
+<commentInRDBMS><![CDATA[A student is a child enrolled in a school.]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student_ID" id="92A00515-B48E-7B08-D9CC-EF41A30DD983">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:33:40 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_username" id="544908E3-1904-03CD-39DB-6560223EF4A8">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 15:41:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[must be unique]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_firstname " id="F8556A49-F0F8-CAD4-B300-E2002CD820DC">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 19:21:17 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>220F7CA6-0C7E-DF1D-4F51-4E924C8A789D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_lastname" id="4B49CBEF-2993-2A5D-379A-47C9C1332C17">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:30:01 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>220F7CA6-0C7E-DF1D-4F51-4E924C8A789D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_account_status" id="AD63EE3A-EE47-7D8D-B09C-6682F7E0E8A2">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 15:56:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[initialized, active, inactive, graduated]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<constraintName>Valid Statuses</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<listOfValues>
+<valueDef value="" description=""/>
+<valueDef value="active" description=""/>
+<valueDef value="graduated" description=""/>
+<valueDef value="inactive" description=""/>
+<valueDef value="initialized" description=""/>
+</listOfValues>
+<defaultValue>initialized</defaultValue>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_signup_date" id="FF172C40-C8D1-4A74-BAAF-C99D9853E1EF">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 15:59:47 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9C2654A0-8DA0-8886-2D79-636ADC3F541B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_access_code" id="CE22EDDD-1989-76BB-D00C-A24201E660B7">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:33:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[is unique but can change]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A0618070-E49E-1352-EB1D-EB95DD94B55D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD1D4DC3-EBBE-C138-A3B6-7C0200DEB004" name="Student PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:34:16 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92A00515-B48E-7B08-D9CC-EF41A30DD983</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="42DE4DAC-8C1A-F25C-7430-05772594EDBA" name="student access code">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:31:53 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="false"/>
+</engineerTo>
+<newElementsIDs>CE22EDDD-1989-76BB-D00C-A24201E660B7</newElementsIDs>
+</identifier>
+<identifier id="A9BDAE99-E802-76FB-54CD-22EA31C04EC9" name="username">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:01:14 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="false"/>
+</engineerTo>
+<newElementsIDs>544908E3-1904-03CD-39DB-6560223EF4A8</newElementsIDs>
+<usedAttributes>
+<attributeRef>544908E3-1904-03CD-39DB-6560223EF4A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ClassDojo Part 2 Start File" id="83C311E6-9724-4ADC-6D8E-A376BCDEEF87" version="3.5">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 17:18:36 UTC</createdTime>
+<ownerDesignName>ClassDojo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>83C311E6-9724-4ADC-6D8E-A376BCDEEF87</designId>
+</OSDM_Design>

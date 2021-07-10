@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="261AD63F-DE08-1034-F29F-28D764784A1E" name="Student_Feedback">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[A feedback is a negative or positive statement given by a teacher to one or more students based on observed skill or behavior in the classroom.]]></commentInRDBMS>
+<generatorID>D601FCC1-0CE7-DC0B-4D8B-267FF60B554E</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_feedback_ID" id="998ED5A1-5921-F2E9-FC5A-7D84C7AF8721">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>5FAD1771-E772-00D2-25FA-8994CE111DEF</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_feedback_datetime" id="F89F6266-6B4F-1320-B5B7-15290CEF8370">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>5E5B7650-D2A3-ECD7-6A14-B80F7B63715D</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9C2654A0-8DA0-8886-2D79-636ADC3F541B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_feedback_given_to" id="4AFF5E3C-EBE5-AC7E-58E8-2641B4F057B1">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[whole class, individual student (default is whole class)]]></commentInRDBMS>
+<generatorID>69B30E51-19FC-3241-5763-9A850B8443ED</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<constraintName>feedback recipient</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<listOfValues>
+<valueDef value="individual student" description=""/>
+<valueDef value="whole class" description=""/>
+</listOfValues>
+<defaultValue>whole class</defaultValue>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_feedback_note" id="031C9DC3-5D31-E013-A91A-97C876673507">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>6EB77BA5-BA08-F7BB-9CA6-B35DDC507DB0</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B572686D-D1B3-076E-C97B-54334E024F76</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_feedback_points" id="CC0BACE3-5D55-6743-11E5-9617D38E594C">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>0733EDBB-3A45-EB29-9E36-25521F789E85</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A6B55508-7826-1152-000A-E2131D356A44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-5</beginValue>
+<endValue>5</endValue>
+<description>Point range</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="student_ID" id="C766A85B-9D41-6D01-F7DD-4938148737E0">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>514AE5D8-F5D9-48B8-285E-82100BC06B4F</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9EB7ED1-8EF1-6213-5C88-4ED17B2024FC" referredColumn="BB3A4894-045B-DA81-56FA-1F4C3453C8BA"/>
+</associations>
+</Column>
+<Column name="class_listing_ID" id="F6FF15F1-A4C3-784D-48E0-5865676E4B42">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>EA30E68F-EBB3-57E4-07D0-AE800E366319</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17A6FE95-79F4-0E54-A414-9D3FDBBF0FFC" referredColumn="EBA4DFAE-E130-1FAD-764B-99AED266E581"/>
+</associations>
+</Column>
+<Column name="teacher_ID" id="FB7DAC9E-9252-5E22-1F92-D0135F34CA6E">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>BDE65EED-A6C3-4E71-3858-7F24C7767302</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1B90EF3-6FD5-1124-9443-9AD54375EBE8" referredColumn="93D273AC-9763-B4E3-D77D-478ADAEC6E8A"/>
+</associations>
+</Column>
+<Column name="Skill_ID" id="EB32EE21-09CF-D854-7934-D5B12EFEFDC5">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>CA94247B-577D-39CF-9A23-BB68DDF6E3E0</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE659066-7D16-89A7-EFB8-F643569B84F2" referredColumn="2DED1201-1EDA-0B6E-829B-4F04B83D5685"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23B8B347-3002-B626-CA08-30B8AD4F8A4E" name="Feedback_PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>37DBAC37-8A34-48E4-92EB-FB78A35E217F</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="998ED5A1-5921-F2E9-FC5A-7D84C7AF8721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAE2C973-2CDA-CA2D-F999-E961DAB805B4" name="Class_Settingv2">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>8E8A8804-8563-ADB8-7125-14695CEF25B0</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6FF15F1-A4C3-784D-48E0-5865676E4B42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86A4FA4E-0AEB-3681-F8DC-D947BF5A5A1F" name="Feedback_given">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>B4953AB7-8B8F-EC2E-E39B-D053B0B7D23B</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C766A85B-9D41-6D01-F7DD-4938148737E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94E4F882-BE5F-C4CE-E562-A829FB4662A7" name="Relation_10">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>E19D59CC-99ED-84B1-9238-4FB2C9A1CD87</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB32EE21-09CF-D854-7934-D5B12EFEFDC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5AE620F-518E-E4F8-0C70-63728A87143C" name="Sender">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>BA6E4FB0-4330-7B3F-50C4-B7A2AB5763C5</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7DAC9E-9252-5E22-1F92-D0135F34CA6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Slide 4 Adding Students" id="FB43C105-3CF3-CB8A-838F-033DB343A2BC">
+<createdBy>mgreiner</createdBy>
+<modifiedBy>mgreiner</modifiedBy>
+<createdTime>2017-10-02 17:51:00 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>false</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<showAllDetails>false</showAllDetails>
+<showComments>true</showComments>
+<showElements>true</showElements>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6D9AFE9F-B64A-6B04-CC76-19CC88B797E4" otype="Entity" vid="D013B6BD-72C3-017B-7144-B098AFF80438">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="498" y="212" width="332" height="140"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="544908E3-1904-03CD-39DB-6560223EF4A8"/>
+</OView>
+</objectViews>
+</Diagram>

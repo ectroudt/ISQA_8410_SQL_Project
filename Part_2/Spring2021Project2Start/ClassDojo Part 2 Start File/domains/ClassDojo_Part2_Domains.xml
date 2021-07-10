@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="ClassDojo_Part2_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="HumanName" id="220F7CA6-0C7E-DF1D-4F51-4E924C8A789D">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:10:19 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<importedID>220F7CA6-0C7E-DF1D-4F51-4E924C8A789D</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30</dataTypeSize>
+<fileName>ClassDojo_Part2_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Identifier" id="482227BF-D85A-2DDC-3622-0D1F18214B44">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:10:19 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<importedID>482227BF-D85A-2DDC-3622-0D1F18214B44</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<fileName>ClassDojo_Part2_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="%column% &gt; 0"/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DateMade" id="9C2654A0-8DA0-8886-2D79-636ADC3F541B">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:10:19 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<importedID>9C2654A0-8DA0-8886-2D79-636ADC3F541B</importedID>
+<avTSortOrder>0</avTSortOrder>
+<fileName>ClassDojo_Part2_Domains</fileName>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Code" id="A0618070-E49E-1352-EB1D-EB95DD94B55D">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:10:19 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<importedID>A0618070-E49E-1352-EB1D-EB95DD94B55D</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>5</dataTypeSize>
+<fileName>ClassDojo_Part2_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Point" id="A6B55508-7826-1152-000A-E2131D356A44">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:10:19 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<importedID>A6B55508-7826-1152-000A-E2131D356A44</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2</dataTypeSize>
+<fileName>ClassDojo_Part2_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-5</beginValue>
+<endValue>5</endValue>
+<description>Point range</description>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="TextMade" id="B572686D-D1B3-076E-C97B-54334E024F76">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:10:19 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<importedID>B572686D-D1B3-076E-C97B-54334E024F76</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>200</dataTypeSize>
+<fileName>ClassDojo_Part2_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Email" id="F064D19A-7B3A-DEAB-F6CA-6E2AB6ABD9FD">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:10:19 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<importedID>F064D19A-7B3A-DEAB-F6CA-6E2AB6ABD9FD</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>40</dataTypeSize>
+<fileName>ClassDojo_Part2_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="%column% LIKE (&apos;%@%&apos;)"/>
+</checkConstraint>
+</Domain>
+</domains>
+</DomainFile>

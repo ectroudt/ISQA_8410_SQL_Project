@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="7681E670-5D2E-83FB-C94B-004D26995CB0" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="F8CC108C-6C61-91AA-1FA0-BB1B2B85E95F" name="Class Teachers" visible="true"/>
+   <object objectType="sub_view" objectID="90002925-28F5-A1D7-ED5F-BA2A29DFFC4B" name="Skills Feedback" visible="true"/>
+   <object objectType="sub_view" objectID="554245B0-B123-4399-0D38-66AB5DE03E45" name="Stories" visible="true"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

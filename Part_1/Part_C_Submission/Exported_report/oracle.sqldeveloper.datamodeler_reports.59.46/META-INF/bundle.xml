@@ -1,0 +1,24 @@
+<update-bundle version="1.0"
+       xmlns="http://xmlns.oracle.com/jdeveloper/updatebundle"
+       xmlns:u="http://xmlns.oracle.com/jdeveloper/update">
+      <!-- The id *MUST* match exactly the id in your extension.xml. -->
+  <u:update id="oracle.sqldeveloper.datamodeler_reports">
+    <!-- The name of your extension as you want it to appear in CfU -->
+    <u:name>Oracle SQL Developer Data Modeler Reports</u:name>
+    <!-- The version *MUST* match exactly the version in your extension.xml. -->
+    <u:version>11.1.1.59.46</u:version>
+    <u:author>Oracle</u:author>
+    <u:author-url>http://www.oracle.com</u:author-url>
+    
+    <u:description>
+      Oracle SQL Developer Data Modeler Reports
+    </u:description>
+	<u:requirements>
+  	 <u:requires-extension id="oracle.sqldeveloper" minVersion="1.5.0" /> 
+	</u:requirements>
+	<u:destination>${oracle.home}</u:destination>
+	
+	<u:bundle-url>http://raptor.oraclecorp.com/builds/updates/1.5.4/oracle.sqldeveloper.datamodeler_reports.59.46.zip</u:bundle-url>
+  </u:update>
+</update-bundle>
+    

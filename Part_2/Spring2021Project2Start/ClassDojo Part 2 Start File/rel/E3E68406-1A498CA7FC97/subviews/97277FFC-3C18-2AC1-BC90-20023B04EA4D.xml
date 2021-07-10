@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="From_LM_Slide 6 Parent Sign up" id="97277FFC-3C18-2AC1-BC90-20023B04EA4D">
+<createdBy>ectro</createdBy>
+<modifiedBy>ectro</modifiedBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>2567AAC7-7317-543C-A56B-877CF55D525E</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="87965C16-3CC8-9DB2-A666-3C8779C1DE44" otype="Table" vid="ACCE2E88-72FD-038B-6C80-BE51CD825086">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="140" y="200" width="170" height="110"/>
+<generatorID>9BB75771-AAE0-4886-10FB-BDBC44058E70</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F50443E5-8D8E-1AF1-18B7-A0550FF55CC8" otype="Table" vid="AA9E5A50-1710-4C57-119B-4988C3824886">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="110" y="140" width="170" height="110"/>
+<generatorID>69B25FFC-82A1-D2B3-9B06-1CB503EB6977</generatorID>
+</OView>
+</objectViews>
+</Diagram>

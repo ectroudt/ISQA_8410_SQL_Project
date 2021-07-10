@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Class_Enrolled" directorySegmentName="seg_0" id="9595AA36-C23F-4BD0-97D1-A79208E3FD8F">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-10-02 17:09:56 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<sourcePk>CD1D4DC3-EBBE-C138-A3B6-7C0200DEB004</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>belongs to</nameOnSource>
+<nameOnTarget>for</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6D9AFE9F-B64A-6B04-CC76-19CC88B797E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>64AE2B2E-9DB1-C18D-1249-265499ABCCEB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

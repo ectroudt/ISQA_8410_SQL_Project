@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ISQA8410_ClassDojo_StarSchema_EricTroudt" id="60E0DE92-07BE-D686-7095-8047E4033566" version="3.5">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 22:50:58 UTC</createdTime>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>60E0DE92-07BE-D686-7095-8047E4033566</designId>
+</OSDM_Design>

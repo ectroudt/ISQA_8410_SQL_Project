@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="A1D0DB4A-6AA1-E8F8-3A84-6AE7D9580549">
+<createdBy>ectro</createdBy>
+<createdTime>2021-04-15 23:25:20 UTC</createdTime>
+<ownerDesignName>ISQA8410_ClassDojo_StarSchema_EricTroudt</ownerDesignName>
+<engineerTo>
+<item key="783E3EF0-2993-A344-3934-EE127A79C4F5" value="true"/>
+</engineerTo>
+<sourcePk>E9E61CF0-CB9D-2487-98D4-85A7ACC8B86A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FF9655C-2FAA-FDCB-00B7-F989B9DA8D04</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31F8DFA3-5FF4-47FA-8E93-8CB1D0686675</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

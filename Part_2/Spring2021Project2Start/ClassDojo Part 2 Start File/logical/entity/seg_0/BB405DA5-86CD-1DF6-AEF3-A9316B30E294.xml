@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB405DA5-86CD-1DF6-AEF3-A9316B30E294" name="Comment_Post">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 18:05:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[A comment is a written statement by a parent for a posting.]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="comment_post_ID" id="2B06148E-3C4D-8971-6E1A-C3B0023DB3E5">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:50:55 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment_post_text" id="78580E7A-7703-9F8D-3359-B22D78C884DC">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 17:44:22 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B572686D-D1B3-076E-C97B-54334E024F76</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment_post_datetime" id="858348E1-F3B1-E0AC-E85B-7EDF901D216D">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 17:44:25 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>9C2654A0-8DA0-8886-2D79-636ADC3F541B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentInd_ID" id="6E0A229A-D90B-9739-E125-8F62FDC872A5">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:34:48 UTC</createdTime>
+<generatorID>C6A66CFD-AA9E-0107-3D23-C5F2295D22B8</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>373FA1FC-DAC3-2D6D-2DE4-D1F69BAE544F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="story_ID" id="2255DE0B-0E01-9175-6372-150FDF2497BE">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 01:38:03 UTC</createdTime>
+<generatorID>82C69AF8-2906-42CA-243F-D4A13E452A8F</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>0147DBDD-BC8E-895A-2395-DAFABB9DD88C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE1315CE-2F6E-BF9D-4495-325C6F993783" name="Comment PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:51:03 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B06148E-3C4D-8971-6E1A-C3B0023DB3E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21EB887B-F5D7-CC82-68C2-6E86566193E8" name="Class_Listing">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-30 17:28:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[A class is a group of students taught together by a teacher in a school. A class is for the duration of a school year.]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="class_listing_ID" id="616C4FA6-CEC2-DD2C-5C46-5FB44ED5D6D5">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:35:57 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_listing_name" id="0B8FA6B2-5B04-E412-11A4-F43CA3C16F3C">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-31 16:10:05 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>220F7CA6-0C7E-DF1D-4F51-4E924C8A789D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_listing_points_options" id="9E6E31BF-97F4-A6FA-65D2-20E07366E50F">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-31 18:59:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[total, positive, negative (default is Total)]]></commentInRDBMS>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<constraintName>Point mode</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="Negative" description=""/>
+<valueDef value="Positive" description=""/>
+<valueDef value="Total" description=""/>
+</listOfValues>
+<defaultValue>Total</defaultValue>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_listing_points" id="20461C5C-78D7-E333-ACCF-59DBAFBDF1AC">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-08-31 19:03:12 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_listing_story_code" id="81FE1666-5A6F-6D94-9941-446A14EBCEE5">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-09-01 17:50:44 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A0618070-E49E-1352-EB1D-EB95DD94B55D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_listing_grade" id="78682620-E474-A204-9549-EE147AAF977E">
+<createdBy>mgreiner</createdBy>
+<createdTime>2017-10-04 14:45:52 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>220F7CA6-0C7E-DF1D-4F51-4E924C8A789D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="teacher_ID" id="07F86F93-EADC-D16C-D12C-703C4082A55E">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:36:28 UTC</createdTime>
+<generatorID>9B4CE730-6F73-B572-24B4-218B529AE44D</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="true"/>
+</engineerTo>
+<referedAttribute>B781D8AF-F4BA-E3D1-B320-502B3684163B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D46F4AD8-DEB8-F169-8F1E-9919CDD3CD84" name="Class PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 00:36:02 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>616C4FA6-CEC2-DD2C-5C46-5FB44ED5D6D5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0670F18C-189C-D703-C31E-149BC3C59751" name="story code">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 00:50:49 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E3E68406-3926-C886-CA6E-1A498CA7FC97" value="false"/>
+</engineerTo>
+<newElementsIDs>81FE1666-5A6F-6D94-9941-446A14EBCEE5</newElementsIDs>
+<usedAttributes>
+<attributeRef>81FE1666-5A6F-6D94-9941-446A14EBCEE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

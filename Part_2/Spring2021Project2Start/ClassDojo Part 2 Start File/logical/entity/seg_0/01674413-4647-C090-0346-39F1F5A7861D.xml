@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01674413-4647-C090-0346-39F1F5A7861D" name="Student_Parent">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:30:42 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student_ID" id="89B52607-E7D7-5F52-4F20-52A0B426E1AA">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:30:54 UTC</createdTime>
+<generatorID>190EDEFF-11A1-8DCE-34DF-89A2C21774A1</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>92A00515-B48E-7B08-D9CC-EF41A30DD983</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentInd_ID" id="C28BAB67-254A-1742-CAC4-0E635A799698">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:31:18 UTC</createdTime>
+<generatorID>13D2A7F7-0FA4-506A-4228-AA03FA504936</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<referedAttribute>373FA1FC-DAC3-2D6D-2DE4-D1F69BAE544F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F10B110A-8081-A326-A984-033E13979526" name="Student_Parent PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:30:54 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89B52607-E7D7-5F52-4F20-52A0B426E1AA</attributeRef>
+<attributeRef>C28BAB67-254A-1742-CAC4-0E635A799698</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

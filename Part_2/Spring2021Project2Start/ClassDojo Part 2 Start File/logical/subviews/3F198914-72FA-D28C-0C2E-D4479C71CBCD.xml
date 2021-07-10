@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Slide 14 Showing Points" id="3F198914-72FA-D28C-0C2E-D4479C71CBCD">
+<createdBy>mgreiner</createdBy>
+<modifiedBy>mgreiner</modifiedBy>
+<createdTime>2017-10-02 18:08:44 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>false</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<showAllDetails>false</showAllDetails>
+<showComments>true</showComments>
+<showElements>true</showElements>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="21EB887B-F5D7-CC82-68C2-6E86566193E8" otype="Entity" vid="CB0DE834-CB08-6824-79F4-3B411ED67453">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="176" y="194" width="247" height="151"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="0B8FA6B2-5B04-E412-11A4-F43CA3C16F3C 81FE1666-5A6F-6D94-9941-446A14EBCEE5"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="64AE2B2E-9DB1-C18D-1249-265499ABCCEB" otype="Entity" vid="9A2B69F7-2CD4-6988-4AD8-D0F744431DF2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="566" y="295" width="170" height="110"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="6B3FD85A-628C-8372-421E-7B9088097B90" otype="Note" vid="C3086345-B743-AB5C-324E-0FB1EF6102BA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="243" y="415" width="276" height="102"/>
+<comment>An alternative would be to store the reset date in the class entity and calculate the points for the class and the students. Since the business rules explicitly say to &quot;store&quot; the points, I opted for this choice. Performance considerations may change this option when designing the logical schema.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6D9AFE9F-B64A-6B04-CC76-19CC88B797E4" otype="Entity" vid="F4D2030B-8E6D-FE6F-6A25-B9312FDCD84C">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="934" y="217" width="332" height="259"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="4AEEA213-5054-7743-9612-E1B4E9373A57 AD63EE3A-EE47-7D8D-B09C-6682F7E0E8A2 F8556A49-F0F8-CAD4-B300-E2002CD820DC FF172C40-C8D1-4A74-BAAF-C99D9853E1EF 544908E3-1904-03CD-39DB-6560223EF4A8"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0E97DD57-68C6-2A11-FB6C-8AF80F848299" otype="Relation" vid_source="CB0DE834-CB08-6824-79F4-3B411ED67453" vid_target="9A2B69F7-2CD4-6988-4AD8-D0F744431DF2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="423" y="320"/>
+<point x="566" y="320"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9595AA36-C23F-4BD0-97D1-A79208E3FD8F" otype="Relation" vid_source="F4D2030B-8E6D-FE6F-6A25-B9312FDCD84C" vid_target="9A2B69F7-2CD4-6988-4AD8-D0F744431DF2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="934" y="350"/>
+<point x="736" y="350"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

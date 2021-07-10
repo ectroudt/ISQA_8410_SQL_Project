@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE189C9F-06D5-1E93-40FA-A08C0FDFF12D" containerWithKeyObject="488C366A-2696-D037-2E2B-24C377135055" localFKIndex="4260A8D9-1CDB-E81E-6B1C-FC1995CE9B4B" name="Written_Teacher">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>6C51BC57-18D8-B709-03D8-C5B784A7983C</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<referredTableLongName>Teacher</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>BBC87285-E3C4-1FA3-48F3-01E981F3E798</referredTableID>
+<keyObject>A4EB9278-209E-7AA8-40D3-59515B519972</keyObject>
+<referredKeyID>A4EB9278-209E-7AA8-40D3-59515B519972</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>teacher_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EE36506-96EF-52B0-004E-4DB08030440C" name="Feedback">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:43:15 UTC</createdTime>
+<comment><![CDATA[Feedback given by teacher for students. It can be specific to student or for whole class]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>CDB4F084-46EC-0226-4113-29E136792B3C</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="feedback date time" id="301ECE5C-8DA1-E345-DB62-520C6D14209C">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:43:24 UTC</createdTime>
+<comment><![CDATA[Date and time for the feedback]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="feedback comment" id="FD637B81-4C31-F99E-B91E-1E35FB52839F">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:43:43 UTC</createdTime>
+<comment><![CDATA[feedback text]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="feedback type" id="CDB4F084-46EC-0226-4113-29E136792B3C">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:43:54 UTC</createdTime>
+<comment><![CDATA[Feedback type]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="feedback points awarded" id="0FAEBEC9-C6D9-FDC8-FD6E-11D5834A3CD2">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-01 22:43:10 UTC</createdTime>
+<comment><![CDATA[Number of points awared for a given skill's weightedpoint toal i.e. a Skill weighted from 0-5 could have a 3/5 points awarded in its feedback.]]></comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

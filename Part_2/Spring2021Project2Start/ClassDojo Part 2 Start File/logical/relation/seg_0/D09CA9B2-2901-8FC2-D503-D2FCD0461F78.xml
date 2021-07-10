@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Liked_Story" directorySegmentName="seg_0" id="D09CA9B2-2901-8FC2-D503-D2FCD0461F78">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-30 23:26:12 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<engineerTo>
+<item key="406D10FD-2772-B1D9-65D7-9047B1670112" value="true"/>
+</engineerTo>
+<sourcePk>799AB2CA-C9BD-C744-956F-0DF47EC03718</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Liked by</nameOnSource>
+<nameOnTarget>For</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F9E03F9B-2A4E-B65E-1056-31FEFDC957A9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D42E1623-19EB-44F2-DF75-C737B4E8CD89</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

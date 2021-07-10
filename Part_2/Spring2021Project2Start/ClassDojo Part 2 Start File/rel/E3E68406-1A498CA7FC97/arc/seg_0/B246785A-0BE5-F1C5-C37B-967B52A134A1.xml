@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="B246785A-0BE5-F1C5-C37B-967B52A134A1" name="FKArc_1">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>C56AA05A-A655-AD74-8286-0ACC89017C1D</table>
+<fkeys>
+<fkeyID>AFD421C9-2A3E-767B-EB92-186FA3C56B18</fkeyID>
+<fkeyID>E0FC201B-4A4F-A3CD-11FC-01A62DFC724D</fkeyID>
+</fkeys>
+</FKArc>

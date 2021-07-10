@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="030A84F3-9BD9-5F69-3B15-E0B0F19CCB8D" name="School">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:02:13 UTC</createdTime>
+<comment>School information</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="school name" id="2C0F5CB3-1642-63A9-8A67-CDACDD92DA0C">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:02:37 UTC</createdTime>
+<comment>Name of the school</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="school address" id="3C9E3519-CD0C-E431-C93A-C89A170D22AE">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:02:47 UTC</createdTime>
+<comment>Address of the school</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="school principal name" id="AF0AFE04-336F-9216-058F-32F249773570">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:03:09 UTC</createdTime>
+<comment>School principal name</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="school principal phone" id="C9F16BCE-0B9A-05F3-16E7-EEB5A07FE793">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-17 00:41:09 UTC</createdTime>
+<comment>Phone number of the school&lt;br/&gt;</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="school principal email" id="07228335-8B27-76FC-F1D7-45D5431055CB">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-17 00:41:14 UTC</createdTime>
+<comment>Email address of the school</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="school access code" id="FAA2754D-78A2-BC23-CE63-E72D3A33AD55">
+<createdBy>ectro</createdBy>
+<createdTime>2021-02-15 05:10:34 UTC</createdTime>
+<comment>School access code.</comment>
+<ownerDesignName>ISQA8410_Project_ClassDojo_ConceptualModel</ownerDesignName>
+<engineerTo>
+<item key="8E60B514-4681-510F-0041-55919F9F5F48" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8F34985-6C5E-84D8-E853-F45901292E4D" name="Skill">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[A skill is a negative or positive behavior that is given as a feedback to a student. ]]></commentInRDBMS>
+<generatorID>5C2264B2-6B6D-DFFB-145A-D04387A3BCC3</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Skill_ID" id="2DED1201-1EDA-0B6E-829B-4F04B83D5685">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>B9D280DC-2321-99FF-4771-0BBCAB0ADC15</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skill_name" id="BA20344E-4D91-19E6-D3A0-81A388D36DB0">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>C2482CD5-AAC1-BB07-F59F-D0D99EA84DAD</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>220F7CA6-0C7E-DF1D-4F51-4E924C8A789D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skill_negpos" id="6EEB3A1D-4DB4-B334-D8B9-1B81496B0C2E">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[neg or pos (default is pos)]]></commentInRDBMS>
+<generatorID>90757FDC-C008-E818-43C9-2DAFDD865D50</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<constraintName>skill mode</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<listOfValues>
+<valueDef value="neg" description=""/>
+<valueDef value="pos" description=""/>
+</listOfValues>
+<defaultValue>pos</defaultValue>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skill_weight" id="8AB1697C-5CED-E42F-F5DF-3EC9E68DAF6C">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<comment><![CDATA[Value 0 to 5.]]></comment>
+<generatorID>933D45F6-B47F-A1E0-82D2-7365FB018604</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A6B55508-7826-1152-000A-E2131D356A44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>-5</beginValue>
+<endValue>5</endValue>
+<description>Point range</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="class_listing_ID" id="DC1C9A63-6D5B-6609-B467-7D8BABB12633">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>4C113E71-5501-8C31-77D5-8FD6DA9264FE</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D673B72-CE51-38EF-CDA5-112C3DDA470F" referredColumn="EBA4DFAE-E130-1FAD-764B-99AED266E581"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6490B7A6-FAEF-A230-F2DF-2528BDC08B5E" name="Skill_PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>A48D9F7A-E24E-E61E-99CE-CEFB7FF2B9F0</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DED1201-1EDA-0B6E-829B-4F04B83D5685"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="155C6E4F-3234-6798-F1FA-8DB3DC9AE63E" name="Class_Settingv3">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>A6E39E13-D0D8-5587-36A2-C8184A259A1F</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC1C9A63-6D5B-6609-B467-7D8BABB12633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="sub_view" objectID="110058FC-C5E5-17B2-78CB-D5F82FC16966" name="From_LM_Slide 19 Story" visible="false"/>
+   <object objectType="main_view" objectID="2FD384F7-593C-E4C4-76BD-DE3DBB990C50" name="Relational_1" visible="true"/>
+   <object objectType="sub_view" objectID="3FE1EB70-3A2D-36C5-D2C1-BEA2B0B7214E" name="From_LM_Slide 8  Create a Class" visible="false"/>
+   <object objectType="sub_view" objectID="4716C2FD-7751-D639-CF6C-83098C5B89B4" name="From_LM_Slide 7 Teacher Account" visible="false"/>
+   <object objectType="sub_view" objectID="4BDCCB6E-6A1E-D476-4FE2-3E05D6756635" name="From_LM_Slide 4 Adding Students" visible="false"/>
+   <object objectType="sub_view" objectID="886CABF4-7E7E-7653-EB2B-9A114104094C" name="From_LM_Slide 18 Sharing Classes" visible="false"/>
+   <object objectType="sub_view" objectID="8952904A-B88C-A4D4-5E30-2205D8E27787" name="From_LM_Slide 5  Student Signup" visible="false"/>
+   <object objectType="sub_view" objectID="97277FFC-3C18-2AC1-BC90-20023B04EA4D" name="From_LM_Slide 6 Parent Sign up" visible="false"/>
+   <object objectType="sub_view" objectID="BDD53FCC-CB4E-C4DE-EF13-FFE02041B776" name="From_LM_Slide 14 Showing Points" visible="false"/>
+   <object objectType="sub_view" objectID="DB7C6353-419E-8905-A9EF-77D2DBE33702" name="From_LM_Slide 12 Manage Skills" visible="false"/>
+   <object objectType="sub_view" objectID="DFFF4C0A-440B-326D-5974-F2267119B72A" name="From_LM_Slide 3 Set up school" visible="false"/>
+   <object objectType="sub_view" objectID="E450208D-30E2-1212-2F72-6DDE87952324" name="From_LM_Slide 13 Give Feedback" visible="false"/>
+   <object objectType="sub_view" objectID="E99A55F1-1595-BAEC-C5F9-C0425BFB1C70" name="From_LM_Slide 9 Delete Class" visible="false"/>
+   <object objectType="sub_view" objectID="EEEDAEA4-2A67-A64E-589F-555790050C15" name="From_LM_Slide 10 Take Attendance" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

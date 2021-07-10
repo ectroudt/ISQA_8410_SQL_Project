@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Slide 3 Set up school" id="DAC746A6-E2E0-C321-2CB9-F8E257DC1498">
+<createdBy>mgreiner</createdBy>
+<modifiedBy>mgreiner</modifiedBy>
+<createdTime>2017-10-02 17:50:01 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>false</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<showAllDetails>false</showAllDetails>
+<showComments>true</showComments>
+<showElements>true</showElements>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="465C3105-AD9A-9876-C569-06183B26AD56" otype="Note" vid="16DF7591-F162-1DCC-DFBE-155776EF2012">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="275" y="486" width="200" height="62"/>
+<comment>Other ways to show this:
+Subtypes or separate relationship.</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EDA02E72-8661-C514-05AA-037064DA3D41" otype="Entity" vid="98865BA7-2677-6B70-61A9-67A1B26DA30C">
+<hideElementsInCurrentOnly>true</hideElementsInCurrentOnly>
+<bounds x="309" y="252" width="170" height="178"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-13421773</foregroundColor>
+<hiddenElements elements="3CBD6CF7-3238-1975-0278-9BAE63F3620A"/>
+</OView>
+</objectViews>
+</Diagram>

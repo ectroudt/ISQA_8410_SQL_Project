@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A58FBADB-D713-ACB2-08B4-33D268D10503" name="Class_Teacher">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>2FD84490-0245-3289-1F9A-FFFA968FE2F5</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="class_listing_ID" id="67DCFB9C-4A05-ABE5-0FB5-97622320E312">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>3743C1DE-7ADA-06E2-BEA3-B1543633BACA</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8FAA290-FF78-3B24-D4B9-F348165C41F1" referredColumn="EBA4DFAE-E130-1FAD-764B-99AED266E581"/>
+</associations>
+</Column>
+<Column name="teacher_ID" id="16C9A721-C0A7-B011-8F24-A2AB30CC5BAC">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>22E701CB-FFCF-8F68-0753-8CCE46D24952</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>482227BF-D85A-2DDC-3622-0D1F18214B44</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19D045EF-4004-04EF-6C32-D3E04A55C074" referredColumn="93D273AC-9763-B4E3-D77D-478ADAEC6E8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0541A01-40EA-DF97-C2C7-FA478C16CCAA" name="Class_Teacher_PK">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>D3ED7268-A147-26BB-164D-273A91D000D0</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67DCFB9C-4A05-ABE5-0FB5-97622320E312"/>
+<colUsage columnID="16C9A721-C0A7-B011-8F24-A2AB30CC5BAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD78BC90-79CC-D030-7B8F-CE3B2DCD92D0" name="Class_Taught">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>F2E5BC35-8016-DFA7-17A4-968CD3FA6FC5</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67DCFB9C-4A05-ABE5-0FB5-97622320E312"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D45C4D5-82F2-85DF-449A-9AE1B41D1B5A" name="Class_Taughtv2">
+<createdBy>ectro</createdBy>
+<createdTime>2021-03-31 23:05:06 UTC</createdTime>
+<generatorID>4FFA5999-39F8-1D94-475E-43CC422D8D60</generatorID>
+<ownerDesignName>ClassDojo Part 2 Start File</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16C9A721-C0A7-B011-8F24-A2AB30CC5BAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
